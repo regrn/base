@@ -28,17 +28,14 @@ int main(void)
 		for(x=0;x<50000;x++)
 		{
 			y=2;
+				y=2;
 		}
 		//_delay_ms(500);
 		
 		PORTD &= ~(1<<PD6);
 		
 		for(x=0;x<50000;x++);
-		for(x=0;x<50000;x++);
-		for(x=0;x<50000;x++);
-		for(x=0;x<50000;x++);
-		for(x=0;x<50000;x++);
-		for(x=0;x<50000;x++);
+		
 		//_delay_ms(500);
 		
 	}//end of while
